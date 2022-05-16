@@ -4,7 +4,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/',
+        source: '/:path',
         destination: 'https://github.com/JamesNZL',
         permanent: false,
       },
