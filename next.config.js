@@ -4,6 +4,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/',
+        destination: 'https://github.com/JamesNZL',
+        permanent: false,
+      },
+      {
         source: '/:path',
         destination: 'https://github.com/JamesNZL',
         permanent: false,
