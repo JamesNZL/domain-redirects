@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: '/:path((?!api/).*)',
-        destination: 'https://github.com/JamesNZL',
+        destination: 'https://github.com/JamesNZL/:path',
         permanent: false,
       },
     ]
