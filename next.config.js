@@ -9,6 +9,11 @@ const nextConfig = {
         permanent: false,
       },
       {
+        source: '/21',
+        destination: 'https://forms.gle/7WuMbfqdrbu3KrtS8',
+        permanent: false,
+      },
+      {
         source: '/:path((?!api/).*)',
         destination: 'https://github.com/JamesNZL/:path',
         permanent: false,
