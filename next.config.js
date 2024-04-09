@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: '/21',
-        destination: 'https://forms.gle/7WuMbfqdrbu3KrtS8',
+        destination: 'https://open.spotify.com/playlist/4NdRBSeR8s8ziouBNNM9MZ',
         permanent: false,
       },
       {
@@ -18,8 +18,8 @@ const nextConfig = {
         destination: 'https://github.com/JamesNZL/:path',
         permanent: false,
       },
-    ]
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
